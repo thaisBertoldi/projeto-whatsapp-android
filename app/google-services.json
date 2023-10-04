@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943784228561",
+    "project_id": "whasapp-5c6ea",
+    "storage_bucket": "whasapp-5c6ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943784228561:android:00766fc35d1eae6bb237f0",
+        "android_client_info": {
+          "package_name": "com.thais.whatsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWWGk4y_6dOtzu90pshJCkS_EnDQbhlrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
