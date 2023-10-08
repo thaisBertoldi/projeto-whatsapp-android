@@ -1,14 +1,16 @@
-package com.thais.whatsapp;
+package com.thais.whatsapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class CadastroActivity extends AppCompatActivity {
+import com.thais.whatsapp.R;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro);
+        setContentView(R.layout.activity_main);
     }
 }
