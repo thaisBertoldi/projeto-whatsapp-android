@@ -29,8 +29,8 @@ public class CadastroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
         campoNome = findViewById(R.id.editName);
-        campoEmail = findViewById(R.id.editEmail);
-        campoSenha = findViewById(R.id.editPassword);
+        campoEmail = findViewById(R.id.editLoginEmail);
+        campoSenha = findViewById(R.id.editLoginPassword);
     }
 
     public void salvarUsuarioFirebase(Usuario usuario) {
