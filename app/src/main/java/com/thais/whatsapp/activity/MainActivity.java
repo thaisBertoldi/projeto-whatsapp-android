@@ -2,6 +2,7 @@ package com.thais.whatsapp.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -25,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("WhatsApp");
         setSupportActionBar(toolbar);
+
+        FragmentPagerItemAdapter adapter = FragmentPagerItemAdapter(
+            getSupportFragmentManager(), FragmentPagerItems.with(this)
+        );
     }
 
     @Override
